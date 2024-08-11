@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.main-content{
+   
+}
+
+
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.display-horizontally{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+
+.display_vertically{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.content-header{    
+    height: 12%;
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+    
+}
+
+.view-header {
+    padding: 10px 20px ;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+}
+
+.user{
+    align-items: center;
+    padding: 0px 5px;
+}
+.user:hover{
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img-user{
+    width: 25px;
+    height: 25px;
+    
+    background-image: url(/assets/image/me.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+.user p{
+    font-weight: 800;
+}
+
+
+.user i{
+    font-size: 10px;
+    padding-left: 2px;
+}
+
+
+ .action{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(129, 129, 126, 0.5);
+    border-radius: 5px;
+}
+
+.action:hover p, 
+.action:hover .icon-view-header{
+    color: rgb(0, 0, 0, 0.8); ;
+    cursor: pointer;
+}
+
+.action p,i{
+    padding: 4px;
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.view-header .icon-view-header{
+    font-size: 20px;
+}
+
+.bookmark{
+    /* display: inline-block; */
+    width: fit-content;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 0px 5px;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(0, 0, 0, 0.5);
+    font-weight: 500;
+    user-select: none;
+    
+}
+
+.bookmark:hover{
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.content-center{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+
+.panel-user .btn-user{
+    border-style: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.panel-user{
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content-center .img-user{
+    background-image: url(/assets/image/user100px.png);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.panel-text{
+    padding: 5px 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+
+.panel-button{
+    font-size: 15px;
+    padding: 5px 20px 50px 20px;
+    
+}
+
+.btn-edit{
+    
+    border: 1px solid rgb(0, 0, 0, 0.4);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+.btn-upload{
+    margin-left: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.4);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.panel-button p{
+    padding: 5px;
+    font-weight: 600;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-bottom{
+    height: 23%;
+    width: 100%;    
+    padding: 0px 20px 15px 20px;
+
+}
+
+.panel-input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+
+    
+}
+
+
+.panel-input .format-bar{
+    height: 40px;
+    background-color:rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+
+}
+
+.format-bar li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.panel-input button{
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:hover, i:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+
+.icon-panel-input {
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 50;
+    
+}
+
+
+
+.panel-input .rectangel{
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: rgb(0, 0, 0, 0.2);
+    
+    margin:  5px 3px 0px 3px
+
+}
+
+
+
+
+
+
+.input-text{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    cursor: text;
+}
+
+
+.input-text p{
+    padding: 5px 15px;
+    width: 100%;
+    line-height: 2;
+    color: rgb(0, 0, 0, 0.2);
+    user-select: none;
+    cursor: inherit;
+    
+}
+
+
+.options-bar{
+    margin: 0 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-options{
+    font-size: 16px;
+    padding: 7px;
+    cursor: pointer;
+}

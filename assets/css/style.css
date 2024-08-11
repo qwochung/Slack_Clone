@@ -1,0 +1,61 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#body{
+    
+    background-color: transparent;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+}
+
+
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.sidebar{
+    width: 30%  ;
+    background-color: rgba(120,50,126,255);  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; 
+    
+
+}
+
+.content{
+    
+    height: 100%;
+
+}
+
+
+
+
+
